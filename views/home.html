@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- 	
+	This file is rendered by express.js, when the home url of the chat is opened in a browser.
+	It doesn't do much, except showing the create button for the chat.
+ -->
+
+<html>
+
+<head>
+
+	<title>Create a new chat room!</title>
+
+	<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- wolf animation main -->
+	<link href='css/wolf-animation.css?v=1.0' rel="stylesheet">
+
+	<!-- wolf animation demo style -->
+	<link href="css/wolf-animation-style-demo.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+	<header class="homebanner">
+
+			<h1 class="homebannertext">
+				<a id="logo">Chat<span>Socket-io</span></a>
+			</h1>
+
+	</header>
+
+	<section>
+
+		<div class="homesection">
+
+			<div class="node">
+				<img src="img/welcome.png" alt="nodelogo" id="nodelogo"/>
+				<h2 id="chat">Nodejs Chat Demo</h2>
+			</div>
+
+			<a title="Create" href="/create" id="create">
+				<div id="createbutton">
+					<div class="around float-left">
+					<div class="icon-demo text-center">
+						<i class="glyphicon glyphicon-triangle-right wolf-animation-demo wolf-focus-right alway-active"></i>
+					</div>
+									
+			</div>
+
+					<div id="big">CHAT ROOM!</div>
+					<div id="little">press to join</div>
+				</div>
+			</a>
+			
+		</div>
+
+	</section>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
