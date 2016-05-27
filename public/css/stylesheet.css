@@ -120,6 +120,7 @@ body {
 	text-decoration: none;
 	margin-bottom: 70px;
 	color: #eeffff;
+	cursor: pointer;
 }
 #create:visited {
 	color: #eeffff;
@@ -131,7 +132,7 @@ body {
 #little {
 	float: left;
 	padding-left: 5px;
-	padding-top: 10px;
+	padding-top: 20px;
 	font-weight: normal;
 	font-size: 13px;
 }
@@ -185,7 +186,7 @@ body {
 #yourName {
 	float:left;
 	padding-left:1px;
-	width: 150px;
+	width: 210px;
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
@@ -218,7 +219,7 @@ body {
 	text-align:center;
 	background-color:rgba(0,0,0,.7);
 	border: none;
-	
+	cursor: pointer;
 	border-radius: 2px;
 	color:white;
 	font-weight: bold;
@@ -263,7 +264,7 @@ body {
 #hisName {
 	float:left;
 	padding-left:10px;
-	width: 150px;
+	width: 210px;
 	height: 30px;
 	border-radius: 3px;
 	box-shadow:0px 3px 3px #e3e4e6;
@@ -295,6 +296,7 @@ body {
 	text-align:center;
 	background-color:rgba(0,0,0,.7);
 	border: none;
+	cursor: pointer;
 	box-shadow: 3px 3px 3px #efedee;
 	border-radius: 2px;
 	color:white;
